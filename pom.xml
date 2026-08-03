@@ -78,9 +78,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+           		<artifactId>sonar-maven-plugin</artifactId>
+            	<version>3.10.0.2594</version>
 				<configuration>
 					<source>17</source>
 					<target>17</target>
@@ -131,11 +131,11 @@
 	<distributionManagement>
 		<repository>
 			<id>maven-releases</id>
-			<url>http://13.127.177.61:8081/repository/maven-releases/</url>
+			<url>http://3.109.199.43:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>maven-snapshots</id>
-			<url>http://13.127.177.61:8081/repository/maven-snapshots/</url>
+			<url>http://3.109.199.43:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
